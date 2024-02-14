@@ -1,12 +1,10 @@
 from pytest import approx, raises
 
-
 def test_calc_area_rectangle():
     from calc_area import calc_area_rectangle
     assert calc_area_rectangle(2, 2) == 4
     assert calc_area_rectangle(2, 1) == 2
-    
-    
+        
 def test_calc_area_circle():
     from calc_area import calc_area_circle
 
